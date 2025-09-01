@@ -1,0 +1,59 @@
+title: "Comprehensive Coding Interview Patterns"
+description: "Master coding interviews through pattern recognition - A comprehensive guide to algorithmic patterns for technical interviews"
+author: "Coding Patterns Team"
+url: "https://your-username.github.io"
+baseurl: "/coding-patterns"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - README.md
+  - patterns/two-pointers/README.md
+  - patterns/sliding-window/README.md
+  - patterns/fast-slow-pointers/README.md
+  - patterns/merge-intervals/README.md
+  - patterns/tree-bfs/README.md
+  - patterns/tree-dfs/README.md
+  - patterns/dynamic-programming/README.md
+  - patterns/subsets-backtracking/README.md
+
+# Collections for better organization
+collections:
+  patterns:
+    output: true
+    permalink: /:collection/:name/
+
+# SEO settings
+twitter:
+  username: coding_patterns
+  card: summary
+
+social:
+  name: Coding Patterns
+  links:
+    - https://github.com/your-username/coding-patterns
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore
